@@ -1,225 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-
-<head>
- <style>
-   h1{
-     font-family:'Fredoka One', cursive;
-     font-size:50px
-   }
-   h2{
-     font-family:'Caveat', cursive;
-     font-size:30px;
-   }
-   .banner{
-     background-color:#FF7D87;
-     padding:20px;
-     margin:10px;
-     border-radius:30px;
-     text-align: center;
-     
-   }
-   html{
-    font-size:20px;
-   }
-   </style>
-  <style>
-   .card{
-     padding:20px;
-     margin:10px;
-     background-color:#FF9797;
-     width:300px;
-     height:500px;
-     text-align:center;
-     border:4px solid red;
-     border-radius:1px 45px 50px;
-     display:inline-block;
-     vertical-align:middle;
-     
-   }
-   .card2{
-     padding:20px;
-     margin:10px;
-     background-color:#4DA3FF;
-     width:300px;
-     height:500px;
-     text-align:center;
-     border:4px solid darkblue;
-     border-radius:1px 45px 50px;
-     display:inline-block;
-     vertical-align:middle;
-   }
-
-     .card3{
-     padding:20px;
-     margin:10px;
-     background-color:#E690FF;
-     width:300px;
-     height:500px;
-     text-align:center;
-     border:4px solid darkblue;
-     border-radius:1px 45px 50px;
-     display:inline-block;
-     vertical-align:middle;
-   }
-   .card img{
-     width:250px;
-    
-   }
-   .card2 img{
-      width:250px;
-    }
-
-    .card3 img{
-      width:200px;
-    }
-   .card .detail{
-     overflow-y:auto;
-     height:60px;
-   }
-    .card2 .detail{
-      overflow-y:scroll;
-      height:125px;
-    }
-    .card3 .detail{
-      overflow-y:auto;
-      height:125px;
-    }
-
-    ul{
-      padding:0;
-      margin:0;
-      list-style-type:none;
-    }
-    .card:hover{
-      transform: translate(-12px, -12px);
-      background-color:#FF9797;
-      transition:all 0.25s ease;
-    }
-   
-    
-    .card2:hover{
-      transform: translate(-12px, -12px);
-      background-color:#4DA3FF;
-      transition:all 0.25s ease;
-    }
-
-    .card3:hover{
-      transform: translate(-12px, -12px);
-      background-color:#E690FF;
-      transition:all 0.25s ease;
-    }
-
-    
-    button{
-      padding:10px;
-      font-size:15px;
-      background:transparent;
-      border:none;
-      border-radius: 15px;
-      cursor:pointer;
-      position:relative;
-      transition:all 0.25s ease;
-      
-    }
-    .brose:hover::after{
-      width:100%;
-      
-    }
-    .brose::after{
-      content:"";
-      position:absolute;
-      border-radius:inherit;
-      width:10%;
-      height:5px;
-      background:#000;
-      left:0;
-      bottom:0;
-      z-index:-1;
-      transition:all 0.25s ease;
-      right:0;
-      /* middle:0; */
-      
-    }
-    .detail{
-      font-family:'Caveat', cursive;
-      font-size:25px;
-    }
-    .title{
-       font-family:'Fredoka One', cursive;
-       font-size:24px;
-      
-      
-    }
 
 
- </style>
-</head>
-  
-<body class="all">
-  <script>
-    function Name(){
-      alert("U clicked mafuqka");
-    }
-  </script>
-  <button onclick></button>
- 
-  <div class="banner">
-    <h1>Flower</h1>
-    <h2>You are the most beautiful rose in my heart...;-;</h2>
-  </div>
-
-  
-  <ul>
-    <li class="card">
-      <div class="title">Rose</div>
-      <img src="https://images.unsplash.com/photo-1559563362-c667ba5f5480?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=802&q=80" alt="Logo"/>
-      <div>Genus: Rosa L.</div>
-      <div class="detail">The red rose symbolizes romance, love, beauty, and courage. A red rosebud signifies beauty and purity. A thornless red rose means love at first sight.</div>
-      <a
-        href="https://en.wikipedia.org/wiki/Rose" target="_blank">
-        <script>
-          function Name(){
-            alert("U clicked mafuqka");
-          }
-        </script>
-        <button class="brose">Wiki</button>
-      </a>
-      
-    </li>
-    <li class="card2">
-      <div class="title">Forget-me-not</div>
-      <img src="https://images.unsplash.com/photo-1588407962228-0cc00fcab8f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=791&q=80" alt="Logo"/>
-      <div>Genus: Myosotis L.</div>
-      <div class="detail">Forget-me-nots represent true love and giving someone this flower means you truly love and respect this person. It is a testament to your relationships and promises the other person that you will never forget them in your thoughts.</div>
-      <a
-        href="https://en.wikipedia.org/wiki/Rose" target="_blank">
-        <button class="brose">Wiki</button>
-      </a>
-      
-    </li>
-
-    
-    <li class="card3">
-      <div class="title">Pansy</div>
-      <img src="https://i.pinimg.com/474x/11/d9/e9/11d9e9b8a1c540cda2f2922608d17956--pink-purple-purple-flowers.jpg" alt="Logo"/>
-      <div>Genus: Viola</div>
-      <div class="detail">Pansy flowers mainly symbolize forms of love like romantic love and platonic affection. Pansies also embody thoughtfulness, compassion, remembrance, and free-thinking</div>
-      <a
-        href="https://en.wikipedia.org/wiki/Pansy" target="_blank">
-        <button class="brose">Wiki</button>
-      </a>
-      
-    </li>
-  </ul>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Web about flower for self pratice">
+        <meta name="author" content="Flipfo with lost brain">
+        <!--Comment-->
+        <title>Test Run</title>
 
 
-</body>
+    </head>
+    <body>  
+        <h1><del>Mango Greetings</del></h1>
+        <p> 
+            <hr><strong> FO </strong><br /> Pansy flowers mainly symbolize forms of love like romantic love and platonic affection. 
+            Pansies also embody thoughtfulness, compassion, remembrance, and free-thinking
+        </p>
+        <hr>
+        
+        
+        <h1>E=MC<sup>2</sup></h1>
+        <hr>
+        <h1>H<sub>2</sub>O</h1>
+        <hr>
+        
+        <img src="https://i.pinimg.com/474x/11/d9/e9/11d9e9b8a1c540cda2f2922608d17956--pink-purple-purple-flowers.jpg" alt="Logo"/>
+        <hr>
+        <a href="page2.html" target="_blank">Page 2</a>
+        <a href="page3.html">Page 3</a>
+        <a href="page4.html">Page 4</a>
+
+
+
+    </body>
 
 </html>
+
+
